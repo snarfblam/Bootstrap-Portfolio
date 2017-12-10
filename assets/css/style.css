@@ -1,0 +1,46 @@
+
+	
+	body {
+		background: url('../images/vintage-concrete.png');
+		min-height: 100vh; 
+	}
+	
+	.flex-grow {
+		flex: 1;
+	}
+    aside a {
+        text-decoration: none;
+		position: relative;
+    }
+	aside a:hover {
+		text-decoration: none;
+	}
+	
+    aside a img {
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+		/* Animation */
+			position: relative;
+			top: 0;
+			left: 0;
+			box-shadow: none;
+			outline: none;
+			transition: top 0.2s, left 0.2s, box-shadow .3s, outline .5s; 
+	}
+		
+	aside a:hover img { 
+		/* Animation */
+			box-shadow: 2px 2px 2px #444, 5px 5px 5px #999;
+			outline: 1px solid black;
+			outline-offset: -1px;
+			top: -10px;
+			left: 0px;
+			transition: top 0.2s, left 0.2s, box-shadow .2s, outline .2s;
+	}
+	
+	aside a:active img {
+		outline: 1px solid orange;
+		outline-offset: -1px;
+	}
+
