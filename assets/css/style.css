@@ -5,6 +5,41 @@
 		min-height: 100vh; 
 	}
 	
+	.portItem {
+		position: relative;
+	}
+	
+	.portLabelContainer {
+		
+		width: 100%;
+		position: absolute;
+		height: 2.5em;
+		
+		bottom: 1em;
+	}
+	
+	h3.portLabel {
+		width: 100%;
+		max-width: 320px;
+
+		height: 100%;
+		margin: 0 auto;
+		background: #822;
+		color: #FEE;
+		text-align: center;
+		transition: background .3s;
+	}
+	
+	.portItem:hover h3.portLabel {
+		background: #A66;
+		color: #FEE;
+		transition: background .3s;
+	}
+	
+	img.portImage {
+		border: 1px solid #822;
+	}
+	
 	.flex-grow {
 		flex: 1;
 	}
