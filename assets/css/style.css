@@ -78,4 +78,7 @@
 		outline: 1px solid orange;
 		outline-offset: -1px;
 	}
-
+    
+    .connect-list {
+        text-align: center;
+    }
